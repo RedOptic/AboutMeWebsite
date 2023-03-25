@@ -160,6 +160,10 @@ li a:hover {
     font-size: 18px;
 }
 
+#infoa{
+    font-size: 14px;
+}
+
 #email{
     padding: 1rem;
 }
