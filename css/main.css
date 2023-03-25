@@ -127,9 +127,9 @@ li a:hover {
     background-color: #111;
 }
 #Name{
+    margin-top: 5%;
     text-align: center;
     width: 97%;
-    height: 30%;
     position: static;
 }
 * {
@@ -141,7 +141,6 @@ li a:hover {
 
 #DCTS{
     width: 10%;
-    height: 12%;
     position: absolute;
     left: 15vw;
     top: 55vh;
@@ -149,7 +148,6 @@ li a:hover {
 
 #HU{
     width: 13%;
-    height: 16%;
     position: absolute;
     right: 15vw;
     top: 53vh;
