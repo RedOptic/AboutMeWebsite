@@ -158,6 +158,8 @@ li a:hover {
     top: 5vh;
     font-size: 20px;
     font-weight: bold;
+    margin-left: 30%;
+    margin-right:30%;
 }
 
 #about{
