@@ -138,14 +138,14 @@ li a:hover {
 
 #DCTS{
     width: 10%;
-    position: absolute;
-    left: 15vw;
-    top: 73vh;
+    position: static;
+    margin-left: 15vw;
+    margin-top: 8vh;
 }
 
 #HU{
     width: 13%;
-    position: absolute;
+    position: static;
     right: 15vw;
     top: 70vh;
 }
