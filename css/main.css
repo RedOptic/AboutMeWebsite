@@ -54,7 +54,7 @@ h6{
     background: rgba(245,245,245,0.85);
     margin-left: 15%;
     margin-right: 15%;
-    text-align: center;
+    text-align: left;
     min-height: 100vh;
 }
 #AM{
@@ -139,6 +139,7 @@ li a:hover {
 #DCTS{
     width: 10%;
     position: static;
+    margin-left: 28%;
 }
 
 #HU{
@@ -152,6 +153,7 @@ li a:hover {
     top: 5vh;
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 #learn{
@@ -160,6 +162,7 @@ li a:hover {
     font-weight: bold;
     margin-left: 30%;
     margin-right:30%;
+    text-align: center;
 }
 
 #about{
