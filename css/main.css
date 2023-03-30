@@ -52,8 +52,6 @@ h6{
 
 #bodyContent{
     background: rgba(245,245,245,0.85);
-    margin-left: 15%;
-    margin-right: 15%;
     text-align: left;
     min-height: 100vh;
 }
@@ -67,6 +65,7 @@ h6{
     position: absolute;
     left: 0vw;
     top: 0vh;
+    margin-left: 1%;
 }
 #insta{
     height: 40px;
@@ -200,5 +199,5 @@ html {
 	height: 100%;    
 }
 ul{
-    text-align: center;
+    text-align: right;
 }
