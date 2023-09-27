@@ -83,3 +83,59 @@ footer {
     flex-shrink: 0;
 	margin-top: auto;
 }
+@media (max-width: 768px) {
+  /* Mobile styles go here */
+body {
+  font-size: 16px; /* Adjust font size for better readability on mobile */
+}
+
+header {
+  flex-direction: column; /* Stack header content vertically on mobile */
+  padding: 20px; /* Reduce padding for header on mobile */
+}
+
+.header-left {
+  align-items: center; /* Center align header text on mobile */
+  text-align: center; /* Center align header text on mobile */
+}
+
+.header-left h1 {
+  font-size: 1.5em; /* Reduce font size for h1 on mobile */
+}
+
+.header-left h2 {
+  font-size: 1.2em; /* Reduce font size for h2 on mobile */
+}
+
+nav {
+  margin-top: 20px; /* Add spacing between header and navigation on mobile */
+  text-align: center; /* Center-align navigation links on mobile */
+}
+
+nav ul {
+  flex-direction: column; /* Stack navigation links vertically on mobile */
+}
+
+nav li {
+  margin-right: 0; /* Remove right margin on list items on mobile */
+  margin-bottom: 10px; /* Add spacing between list items on mobile */
+}
+
+/* Style the sections */
+section {
+  padding: 20px; /* Reduce padding for sections on mobile */
+}
+
+section h2 {
+  font-size: 1.2em; /* Reduce font size for section headings on mobile */
+}
+
+.photo {
+  margin-bottom: 20px; /* Reduce margin-bottom for photos on mobile */
+}
+
+/* Style the footer */
+footer {
+  padding: 10px 0; /* Keep the footer padding for mobile */
+}
+}
