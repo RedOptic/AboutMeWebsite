@@ -82,6 +82,9 @@ footer {
     padding: 10px 0;
     flex-shrink: 0;
 	margin-top: auto;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 @media (max-width: 768px) {
   /* Mobile styles go here */
