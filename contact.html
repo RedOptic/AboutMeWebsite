@@ -23,12 +23,26 @@
         </div>
     </header>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
-    </section>
+		<div class="form_container">
+		  <form action="https://formsubmit.co/ajgiblin04@gmail.com" method="POST">
 
-<footer>
+			<label for="fname">First & Last Name</label>
+			<input type="text" name="name" id="fname" name="firstname" placeholder="Your name.." required>
+			
+			<label for="lname">Your E-mail Address</label>
+			<input type="email" name="email" placeholder="johndoe@example.com" required>
+
+			<label for="subject">Body</label>
+			<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+			
+			<input type="hidden" name="_subject" value="New email from AlexGiblin.com">
+
+			<input type="submit" value="Submit">
+
+		  </form>
+		</div>
+
+<footer style="position: absolute;">
         <p>&copy; 2023 Alex Giblin</p>
         <a href="https://www.instagram.com/aj_giblin/" target="_blank" class="instagram-link">
             <img src="logos/Instagram_Glyph_Gradient.png" height="30" width="30" alt="Instagram Logo">
