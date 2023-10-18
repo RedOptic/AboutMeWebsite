@@ -1,0 +1,19 @@
+<div class="column"> 
+   <img src="photo/City.jpg"> 
+</div> 
+<div class="column"> 
+   <img src="photo/Pondering.jpg"> 
+</div> 
+<div class="column"> 
+   <img src="photo/Sitting.jpg"> 
+</div> 
+<div class="column"> 
+   <img src="photo/Stairs.jpg"> 
+</div> 
+<div class="column"> 
+   <img src="photo/Tree.jpg"> 
+</div> 
+<div class="column"> 
+   <img src="photo/Bridge.jpg"> 
+</div> 
+<div class="column"> 
