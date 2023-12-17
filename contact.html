@@ -6,7 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Alex Giblin</title>
 </head>
-<body style="padding-bottom:90px; position: relative; min-height: 91.4vh;">
+<script>
+  function disableRightClick(event) {
+    if (event.button == 2) {
+      event.preventDefault(); // Prevent the default right-click behavior
+      alert("Right click has been disabled to protect these images from copyright theft.");
+      return false;
+    }
+  }
+</script>
+<body oncontextmenu="disableRightClick(event)" style="padding-bottom:90px; position: relative; min-height: 91.4vh;">
     <header>
         <div class="header-left">
             <h1>Alex Giblin</h1>

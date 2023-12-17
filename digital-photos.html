@@ -6,7 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Digital - Alex Giblin</title>
 </head>
-<body>
+<script>
+  function disableRightClick(event) {
+    if (event.button == 2) {
+      event.preventDefault(); // Prevent the default right-click behavior
+      alert("Right click has been disabled to protect these images from copyright theft.");
+      return false;
+    }
+  }
+</script>
+<body draggable="false" oncontextmenu="disableRightClick(event)">
     <header>
         <div class="header-left">
             <h1>Alex Giblin</h1>

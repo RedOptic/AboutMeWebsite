@@ -6,7 +6,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Alex Giblin</title>
 </head>
-<body style="padding-bottom:90px; position: relative; min-height: 91.4vh;">
+<script>
+  function disableRightClick(event) {
+    if (event.button == 2) {
+      event.preventDefault(); // Prevent the default right-click behavior
+      alert("Right click has been disabled to protect these images from copyright theft.");
+      return false;
+    }
+  }
+</script>
+<body oncontextmenu="disableRightClick(event)" style="position: relative; min-height: 91.4vh;">
     <header>
         <div class="header-left">
             <h1>Alex Giblin</h1>
@@ -33,7 +42,7 @@
 		<!-- Add more photo entries as needed -->
 	</section>
 <!-- remove style="position: absolute;" when beyond bottom of page -->
-	<footer style="position: absolute; bottom: 0;">
+	<footer style="position: fixed; bottom: 0;">
         <p>&copy; 2023 Alex Giblin</p>
         <a href="https://www.instagram.com/aj_giblin/" target="_blank" class="instagram-link">
             <img src="logos/Instagram_Glyph_Gradient.png" height="30" width="30" alt="Instagram Logo">
