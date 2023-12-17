@@ -15,7 +15,14 @@
     }
   }
 </script>
-<body draggable="false" oncontextmenu="disableRightClick(event)">
+<style>
+	@media screen and (max-width: 480px) {
+	  img {
+		pointer-events:none;
+	  }
+	}
+</style>
+<body draggable="false" oncontextmenu="disableRightClick(event); return false">
     <header>
         <div class="header-left">
             <h1>Alex Giblin</h1>
