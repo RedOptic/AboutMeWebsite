@@ -15,6 +15,35 @@
     }
   }
 </script>
+<style>
+	body {
+		min-height: 91.4vh;
+	}
+	@media screen and (min-width: 481px) {
+	  .hide-on-desktop {
+		display: none;
+	  }
+	}
+	
+	@media (min-width: 481px) {  
+	  .just-work {
+		padding-bottom: 90px;
+		position: relative;
+	  }
+	}
+		/* Add 2vh padding when screen width is less than 739px */
+	@media screen and (max-width: 739px) {
+		.figpad {
+			padding: 2vh;
+		}
+	}
+		/* Add 2vh padding when screen width is less than 500px */
+	@media screen and (max-width: 572px) {
+		.figpadtop {
+			padding-top: 2vh;
+		}
+	}
+</style>
 <body oncontextmenu="disableRightClick(event)" style="position: relative; min-height: 91.4vh;">
     <header>
         <div class="header-left">
@@ -37,7 +66,7 @@
 			<a href="street.html">
 				<figure>
 					<div class="button-container" style="height:100px;">
-							<div class="landing-button film" style="width: 500px;">
+							<div class="landing-button film" style="width: 60vw;">
 								<div class="background-image">
 									<img src="projects/street/Street (Large).jpg" alt="Street & Architecture Photos">
 								</div>
@@ -45,11 +74,11 @@
 							</div >
 			</a>
 				</figure>
-					<figcaption style="font-weight: bold;">Ongoing | Personal Project</figcaption>
+					<figcaption style="font-weight: bold;" class="figpad">Ongoing | Personal Project</figcaption>
 			<a href="nature.html">
 				<figure>
 					<div class="button-container" style="height:100px;">
-							<div class="landing-button film" style="width: 500px;">
+							<div class="landing-button film" style="width: 60vw;">
 								<div class="background-image">
 									<img src="projects/nature/4 Ducks (Large).jpg" alt="Nature & Wildlife Photos">
 								</div>
@@ -57,13 +86,13 @@
 							</div >
 			</a>
 				</figure>
-					<figcaption style="font-weight: bold;">Ongoing | Personal Project</figcaption>
+					<figcaption style="font-weight: bold;" class="figpadtop">Ongoing | Personal Project</figcaption>
 			<a href="portraits.html">
 				<figure>
 					<div class="button-container" style="height:100px;">
-							<div class="landing-button film" style="width: 500px;">
+							<div class="landing-button film" style="width: 60vw;">
 								<div class="background-image">
-									<img src="projects/portrait/Stairs.jpg" alt="Nature & Wildlife Photos">
+									<img src="projects/portrait/Benched (Large).jpg" alt="Portrait Photos">
 								</div>
 								<span class="button-text" style="color: white; filter: drop-shadow(0 0 1rem black);">Portraits</span>
 							</div >
@@ -73,9 +102,9 @@
 			<a href="vehicles.html">
 				<figure>
 					<div class="button-container" style="height:100px;">
-							<div class="landing-button film" style="width: 500px;">
+							<div class="landing-button film" style="width: 60vw;">
 								<div class="background-image">
-									<img src="projects/vehicles/Nantucket  boat (Large).jpg" alt="Nature & Wildlife Photos">
+									<img src="projects/vehicles/Nantucket  boat (Large).jpg" alt="Vehicle Photos">
 								</div>
 								<span class="button-text" style="color: white; filter: drop-shadow(0 0 1rem black);">Vehicles</span>
 							</div >
