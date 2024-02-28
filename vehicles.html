@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vehicles Project - Alex Giblin</title>
+</head>
+<script>
+  function disableRightClick(event) {
+    if (event.button == 2) {
+      event.preventDefault(); // Prevent the default right-click behavior
+      alert("Right click has been disabled to protect these images from copyright theft.");
+      return false;
+    }
+  }
+</script>
+<style>
+	@media screen and (max-width: 480px) {
+	  img {
+		pointer-events:none;
+	  }
+	}
+</style>
+<body draggable="false" oncontextmenu="disableRightClick(event); return false">
+    <header>
+        <div class="header-left">
+            <h1>Alex Giblin</h1>
+            <h2>Vehicles Project</h2>
+        </div>
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Portfolio</a></li>
+					<li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="row">
+		<div class="column"> 
+		   <img src="projects/vehicles/Train (Large).jpg"> 
+		</div> 
+		<div class="column"> 
+		   <img src="projects/vehicles/Sea Boat (Large).jpg"> 
+		</div> 
+		<div class="column"> 
+		   <img src="projects/vehicles/Nantucket  boat (Large).jpg"> 
+		</div> 
+		<div class="column"> 
+		</div> 
+	</div>
+
+<!--- Remove style when enough photos are on page to push teh footer down-->
+<footer style="position: absolute; bottom: 0;">
+        <p>&copy; 2023 Alex Giblin</p>
+        <a href="https://www.instagram.com/aj_giblin/" target="_blank" class="instagram-link">
+            <img src="logos/Instagram_Glyph_Gradient.png" height="30" width="30" alt="Instagram Logo">
+        </a>
+    </footer>
+</body>
+</html>
