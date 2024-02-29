@@ -61,10 +61,13 @@
 
 
 <footer>
-        <p>&copy; 2023 Alex Giblin</p>
+        <p>&copy; <span id="year"></span> Alex Giblin</p>
         <a href="https://www.instagram.com/aj_giblin/" target="_blank" class="instagram-link">
             <img src="logos/Instagram_Glyph_Gradient.png" height="30" width="30" alt="Instagram Logo">
         </a>
     </footer>
+	<script>
+		document.querySelector("#year").textContent = new Date().getFullYear();
+	</script>
 </body>
 </html>

@@ -55,10 +55,16 @@
 
 <!--- Remove style when enough photos are on page to push teh footer down-->
 <footer style="position: absolute; bottom: 0;">
-        <p>&copy; 2023 Alex Giblin</p>
+        <p>&copy; <span id="year"></span> Alex Giblin</p>
         <a href="https://www.instagram.com/aj_giblin/" target="_blank" class="instagram-link">
             <img src="logos/Instagram_Glyph_Gradient.png" height="30" width="30" alt="Instagram Logo">
         </a>
     </footer>
+	<script>
+		document.querySelector("#year").textContent = new Date().getFullYear();
+	</script>
+	<script>
+		document.querySelector("#year").textContent = new Date().getFullYear();
+	</script>
 </body>
 </html>
