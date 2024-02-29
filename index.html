@@ -19,17 +19,18 @@
 	body {
 		min-height: 91.4vh;
 	}
-	@media screen and (min-width: 481px) {
-	  .hide-on-desktop {
-		display: none;
-	  }
-	}
 	
-	@media (min-width: 481px) {  
+	@media (min-width: 667px) {  
 	  .just-work {
 		padding-bottom: 90px;
 		position: relative;
 	  }
+	}
+	@media screen and (min-height: 667px) {
+		.hide-on-desktop {
+			position: fixed;
+			margin-top: 20vh;
+		}
 	}
 	
 </style>
@@ -74,13 +75,7 @@
 
 
 <!-- remove style="position: absolute;" when beyond bottom of page -->
-	<footer class="show-on-desktop" style="position: fixed; bottom: 0;">
-        <p>&copy; 2023 Alex Giblin</p>
-        <a href="https://www.instagram.com/aj_giblin/" target="_blank" class="instagram-link">
-            <img src="logos/Instagram_Glyph_Gradient.png" height="30" width="30" alt="Instagram Logo">
-        </a>
-    </footer>
-		<footer class="hide-on-desktop" style="position: fixed; bottom: 0;">
+		<footer class="hide-on-desktop">
         <p>&copy; 2023 Alex Giblin</p>
         <a href="https://www.instagram.com/aj_giblin/" target="_blank" class="instagram-link">
             <img src="logos/Instagram_Glyph_Gradient.png" height="30" width="30" alt="Instagram Logo">

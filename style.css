@@ -71,7 +71,8 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh; /* Center within the viewport height */
+    height: 25vh; /* Center within the viewport height */
+	margin-bottom: 10vh;
 }
 
 .landing-button {
